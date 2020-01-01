@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d969ccdc-c2a1-11e9-d495-2c4d54e8f12b">
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91982092-6f8c-11e9-4d8e-2c4d54e8f12b">
   <name>БизнесПроцессы</name>
   <synonym>
     <key>ru</key>
@@ -10,4 +10,5 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.БизнесПроцессы</picture>
   </picture>
+  <content>Role.Администратор</content>
 </mdclass:Subsystem>

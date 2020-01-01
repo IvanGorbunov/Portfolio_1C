@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="830a897a-c2ab-11e9-d495-2c4d54e8f12b">
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5efdc662-6f98-11e9-4d8e-2c4d54e8f12b">
   <producedTypes>
     <objectType typeId="830a8976-c2ab-11e9-d495-2c4d54e8f12b" valueTypeId="830a8977-c2ab-11e9-d495-2c4d54e8f12b"/>
     <managerType typeId="830a8978-c2ab-11e9-d495-2c4d54e8f12b" valueTypeId="830a8979-c2ab-11e9-d495-2c4d54e8f12b"/>
@@ -11,7 +11,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.ВедомостьПоТоварам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
-  <templates uuid="8b04c54c-c2ab-11e9-d495-2c4d54e8f12b">
+  <templates uuid="68a1696c-6f98-11e9-4d8e-2c4d54e8f12b">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
       <key>ru</key>

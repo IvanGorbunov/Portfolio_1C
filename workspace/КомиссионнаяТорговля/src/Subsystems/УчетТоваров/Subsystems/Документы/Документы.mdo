@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd75b5fe-c2a1-11e9-d495-2c4d54e8f12b">
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7221a670-6f8c-11e9-4d8e-2c4d54e8f12b">
   <name>Документы</name>
   <synonym>
     <key>ru</key>
@@ -10,5 +10,5 @@
   <content>Document.ПриходнаяНакладная</content>
   <content>Document.РасходнаяНакладная</content>
   <content>Document.РасходДенег</content>
-  <parentSubsystem>Subsystem.ОперативныйУчет</parentSubsystem>
+  <parentSubsystem>Subsystem.УчетТоваров</parentSubsystem>
 </mdclass:Subsystem>

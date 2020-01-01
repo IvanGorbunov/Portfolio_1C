@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2def024-c2a1-11e9-d495-2c4d54e8f12b">
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c8b0dfa-6f8c-11e9-4d8e-2c4d54e8f12b">
   <name>Справочники</name>
   <synonym>
     <key>ru</key>
@@ -7,8 +7,9 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Catalog.Номенклатура</content>
   <content>Catalog.Контрагенты</content>
   <content>Catalog.Договоры</content>
-  <parentSubsystem>Subsystem.ОперативныйУчет</parentSubsystem>
+  <content>Catalog.Организации</content>
+  <content>Catalog.Номенклатура</content>
+  <parentSubsystem>Subsystem.УчетТоваров</parentSubsystem>
 </mdclass:Subsystem>

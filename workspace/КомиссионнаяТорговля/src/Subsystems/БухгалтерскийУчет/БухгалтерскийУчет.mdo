@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cdbf2986-c2a1-11e9-d495-2c4d54e8f12b">
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="837c2d5a-6f8c-11e9-4d8e-2c4d54e8f12b">
   <name>БухгалтерскийУчет</name>
   <synonym>
     <key>ru</key>
@@ -10,8 +10,9 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.БухгалтерскийУчет</picture>
   </picture>
+  <content>Role.Администратор</content>
   <subsystems>Справочники</subsystems>
-  <subsystems>Планы</subsystems>
   <subsystems>Документы</subsystems>
+  <subsystems>Планы</subsystems>
   <subsystems>Регистры</subsystems>
 </mdclass:Subsystem>

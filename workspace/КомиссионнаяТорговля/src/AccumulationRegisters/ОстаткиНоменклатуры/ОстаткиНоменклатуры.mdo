@@ -72,7 +72,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <resources uuid="29fe95a6-c2a2-11e9-d495-2c4d54e8f12b">
+  <resources uuid="354cb8d8-6f8d-11e9-4d8e-2c4d54e8f12b">
     <name>Сумма</name>
     <synonym>
       <key>ru</key>
@@ -90,6 +90,20 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
+  <dimensions uuid="63924f08-0bd3-4c5b-bf62-22eaeed6f3cc">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
   <dimensions uuid="93b199d3-29f5-4233-96bb-8fb6457c12ce">
     <name>Номенклатура</name>
     <synonym>
@@ -105,7 +119,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
-  <dimensions uuid="1971da18-c2a2-11e9-d495-2c4d54e8f12b">
+  <dimensions uuid="0634d3d2-6f8d-11e9-4d8e-2c4d54e8f12b">
     <name>Договор</name>
     <synonym>
       <key>ru</key>

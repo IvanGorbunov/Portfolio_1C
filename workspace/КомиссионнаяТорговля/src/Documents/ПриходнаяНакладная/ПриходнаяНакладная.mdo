@@ -68,26 +68,7 @@
   <registerRecords>AccumulationRegister.ОстаткиНоменклатуры</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="e5346aa8-c4b4-4b82-b4b0-f9ba3cd78b69">
-    <name>СуммаПоДокументу</name>
-    <synonym>
-      <key>ru</key>
-      <value>Сумма по документу</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>12</precision>
-        <scale>2</scale>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="2d439d10-c2a2-11e9-d495-2c4d54e8f12b">
+  <attributes uuid="e26e5662-6f8c-11e9-4d8e-2c4d54e8f12b">
     <name>Договор</name>
     <synonym>
       <key>ru</key>
@@ -121,7 +102,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="3fade2a8-c2a2-11e9-d495-2c4d54e8f12b">
+  <attributes uuid="686c1acf-d017-4b8c-86b6-8e4277ccbb76">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b65bb617-5e76-438a-80a4-7f937eb0e465">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>

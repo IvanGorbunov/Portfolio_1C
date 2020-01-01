@@ -69,7 +69,26 @@
   <registerRecords>AccumulationRegister.ОстаткиНоменклатуры</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="b32971de-c2a2-11e9-d495-2c4d54e8f12b">
+  <attributes uuid="40df6de8-6f8e-11e9-4d8e-2c4d54e8f12b">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Договоры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Document.РасходнаяНакладная.Attribute.Контрагент</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3edcb802-6f8e-11e9-4d8e-2c4d54e8f12b">
     <name>Контрагент</name>
     <synonym>
       <key>ru</key>
@@ -84,18 +103,14 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="639d12cc-8859-43a7-be69-cec850654c28">
-    <name>СуммаПоДокументу</name>
+  <attributes uuid="0c93706e-4966-4c1e-9680-4e66de956ef6">
+    <name>Организация</name>
     <synonym>
       <key>ru</key>
-      <value>Сумма по документу</value>
+      <value>Организация</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>12</precision>
-        <scale>2</scale>
-      </numberQualifiers>
+      <types>CatalogRef.Организации</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

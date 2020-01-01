@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aeb25e32-c2a1-11e9-d495-2c4d54e8f12b">
-  <name>ОперативныйУчет</name>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66e986b0-6f8c-11e9-4d8e-2c4d54e8f12b">
+  <name>УчетТоваров</name>
   <synonym>
     <key>ru</key>
-    <value>Оперативный учет</value>
+    <value>Учет товаров</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.ОперативныйУчет</picture>
   </picture>
-  <content>Report.Продажи</content>
-  <content>Report.РаспределениеВыручки</content>
   <content>Report.ВедомостьПоТоварам</content>
+  <content>Report.Продажи</content>
+  <content>Role.Администратор</content>
   <subsystems>Справочники</subsystems>
-  <subsystems>Планы</subsystems>
   <subsystems>Документы</subsystems>
+  <subsystems>Планы</subsystems>
   <subsystems>Регистры</subsystems>
 </mdclass:Subsystem>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ddc4a478-c2a1-11e9-d495-2c4d54e8f12b">
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97aa7e4e-6f8c-11e9-4d8e-2c4d54e8f12b">
   <name>Сервис</name>
   <synonym>
     <key>ru</key>
@@ -10,4 +10,7 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Сервис</picture>
   </picture>
+  <content>Role.Администратор</content>
+  <content>DataProcessor.КонсольЗапросов</content>
+  <content>Catalog.Пользователи</content>
 </mdclass:Subsystem>

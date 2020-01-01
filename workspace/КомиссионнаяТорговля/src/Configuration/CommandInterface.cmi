@@ -2,7 +2,7 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <subsystemsOrder>
     <subsystems>Subsystem.БизнесПроцессы</subsystems>
-    <subsystems>Subsystem.ОперативныйУчет</subsystems>
+    <subsystems>Subsystem.УчетТоваров</subsystems>
     <subsystems>Subsystem.БухгалтерскийУчет</subsystems>
     <subsystems>Subsystem.Расчеты</subsystems>
     <subsystems>Subsystem.Сервис</subsystems>

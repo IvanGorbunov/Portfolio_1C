@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a92cebe9-4e30-4901-842c-b1cc1d0adc9a">
-  <name>ОУ_дз_3_2</name>
+  <name>КомиссионнаяТорговля</name>
   <synonym>
     <key>ru</key>
-    <value>ОУ ДЗ № 3 комиссионка п2 №2</value>
+    <value>Комиссионная торговля</value>
   </synonym>
-  <comment>Каркасная конфигурация 27.02.2019</comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="a0068262-10a0-4841-82b6-f6e35a7fc312"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="283971fe-91b7-4376-aca1-ae970344f753"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="8ca58cf5-6f2d-4488-a306-39692d61f7bf"/>
@@ -16,18 +15,9 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <vendor>УЦ №1</vendor>
-  <version>1.0.0.3</version>
+  <version>0.2.0.1</version>
   <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
   <defaultLanguage>Language.Русский</defaultLanguage>
-  <briefInformation>
-    <key>ru</key>
-    <value>Каркасная конфигурация к экзамену</value>
-  </briefInformation>
-  <detailedInformation>
-    <key>ru</key>
-    <value>Каркасная конфигурация для сдачи экзамена &quot;1С:Специалист&quot; по платформе &quot;1С:Предприятие 8&quot;</value>
-  </detailedInformation>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
@@ -41,7 +31,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.ОперативныйУчет</subsystems>
+  <subsystems>Subsystem.УчетТоваров</subsystems>
   <subsystems>Subsystem.БухгалтерскийУчет</subsystems>
   <subsystems>Subsystem.Расчеты</subsystems>
   <subsystems>Subsystem.БизнесПроцессы</subsystems>
@@ -51,11 +41,14 @@
   <commonPictures>CommonPicture.Расчеты</commonPictures>
   <commonPictures>CommonPicture.БизнесПроцессы</commonPictures>
   <commonPictures>CommonPicture.Сервис</commonPictures>
+  <roles>Role.Администратор</roles>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.Договоры</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.РасходнаяНакладная</documents>
