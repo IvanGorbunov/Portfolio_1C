@@ -15,7 +15,7 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <version>0.2.1.1</version>
+  <version>0.2.1.2</version>
   <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -43,17 +43,17 @@
   <commonPictures>CommonPicture.Сервис</commonPictures>
   <roles>Role.Администратор</roles>
   <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.Договоры</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Организации</catalogs>
-  <catalogs>Catalog.Контрагенты</catalogs>
-  <catalogs>Catalog.ФизическиеЛица</catalogs>
-  <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
-  <catalogs>Catalog.Договоры</catalogs>
-  <documents>Document.ПриходнаяНакладная</documents>
-  <documents>Document.РасходнаяНакладная</documents>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
   <documents>Document.НачислениеЗарплаты</documents>
+  <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.РасходДенег</documents>
+  <documents>Document.РасходнаяНакладная</documents>
   <enums>Enum.УчетнаяПолитика</enums>
   <enums>Enum.ВидыНоменклатуры</enums>
   <reports>Report.Продажи</reports>
