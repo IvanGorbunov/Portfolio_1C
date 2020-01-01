@@ -514,7 +514,7 @@
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
         <paths xsi:type="form:DataPath">
-          <segments>Объект.СписокНоменклатуры.Договор</segments>
+          <segments>Объект.СписокНоменклатуры.ДоговорКомиссии</segments>
         </paths>
       </dataPath>
       <extendedTooltip>
@@ -548,6 +548,10 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
+        <handlers>
+          <event>StartChoice</event>
+          <name>СписокНоменклатурыДоговорНачалоВыбора</name>
+        </handlers>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>

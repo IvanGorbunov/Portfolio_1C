@@ -161,20 +161,16 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="beb5d7d6-c2a2-11e9-d495-2c4d54e8f12b">
-      <name>Договор</name>
+      <name>ДоговорКомиссии</name>
       <synonym>
         <key>ru</key>
-        <value>Договор</value>
+        <value>Договор комиссии</value>
       </synonym>
       <type>
         <types>CatalogRef.Договоры</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <choiceParameterLinks>
-        <name>Отбор.Владелец</name>
-        <field>Document.РасходнаяНакладная.Attribute.Контрагент</field>
-      </choiceParameterLinks>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>

@@ -9,6 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.ПриходнаяНакладная</content>
   <content>Document.РасходнаяНакладная</content>
-  <content>Document.РасходДенег</content>
   <parentSubsystem>Subsystem.УчетТоваров</parentSubsystem>
 </mdclass:Subsystem>

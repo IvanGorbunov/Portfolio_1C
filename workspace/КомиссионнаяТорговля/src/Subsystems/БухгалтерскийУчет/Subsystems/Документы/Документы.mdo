@@ -8,5 +8,6 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Role.Администратор</content>
+  <content>Document.РасходДенег</content>
   <parentSubsystem>Subsystem.БухгалтерскийУчет</parentSubsystem>
 </mdclass:Subsystem>
