@@ -12,6 +12,7 @@
   </picture>
   <content>Role.Администратор</content>
   <content>Report.РаспределениеВыручки</content>
+  <content>Report.ВзаиморасчетыСКонтрагентами</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Документы</subsystems>
   <subsystems>Планы</subsystems>

@@ -8,5 +8,7 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Role.Администратор</content>
+  <content>ChartOfCharacteristicTypes.ВидыСубконто</content>
+  <content>ChartOfAccounts.Управленческий</content>
   <parentSubsystem>Subsystem.БухгалтерскийУчет</parentSubsystem>
 </mdclass:Subsystem>

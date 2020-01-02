@@ -10,10 +10,6 @@
 			<value>false</value>
 		</right>
 		<right>
-			<name>InteractiveDeleteMarked</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>InteractiveDeletePredefinedData</name>
 			<value>false</value>
 		</right>
@@ -159,10 +155,6 @@
 			<value>false</value>
 		</right>
 		<right>
-			<name>InteractiveDeleteMarked</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>InteractiveDeletePredefinedData</name>
 			<value>false</value>
 		</right>
@@ -253,10 +245,6 @@
 			<value>false</value>
 		</right>
 		<right>
-			<name>InteractiveDeleteMarked</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>ReadDataHistory</name>
 			<value>false</value>
 		</right>
@@ -297,10 +285,6 @@
 		<name>Catalog.Контрагенты</name>
 		<right>
 			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
 			<value>false</value>
 		</right>
 		<right>
@@ -355,10 +339,6 @@
 			<value>false</value>
 		</right>
 		<right>
-			<name>InteractiveDeleteMarked</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>InteractiveDeletePredefinedData</name>
 			<value>false</value>
 		</right>
@@ -410,10 +390,6 @@
 			<value>false</value>
 		</right>
 		<right>
-			<name>InteractiveDeleteMarked</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>ReadDataHistory</name>
 			<value>false</value>
 		</right>
@@ -454,10 +430,6 @@
 		<name>Catalog.Пользователи</name>
 		<right>
 			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
 			<value>false</value>
 		</right>
 		<right>
@@ -509,10 +481,6 @@
 		<name>Catalog.Номенклатура</name>
 		<right>
 			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
 			<value>false</value>
 		</right>
 		<right>
@@ -696,10 +664,6 @@
 			<value>false</value>
 		</right>
 		<right>
-			<name>InteractiveDeleteMarked</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>InteractiveDeletePredefinedData</name>
 			<value>false</value>
 		</right>
@@ -806,10 +770,6 @@
 			<value>false</value>
 		</right>
 		<right>
-			<name>InteractiveDeleteMarked</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>ReadDataHistory</name>
 			<value>false</value>
 		</right>
@@ -850,10 +810,6 @@
 		<name>Catalog.ФизическиеЛица</name>
 		<right>
 			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
 			<value>false</value>
 		</right>
 		<right>
@@ -908,10 +864,6 @@
 			<value>false</value>
 		</right>
 		<right>
-			<name>InteractiveDeleteMarked</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>InteractiveDeletePredefinedData</name>
 			<value>false</value>
 		</right>
@@ -960,10 +912,6 @@
 		<name>Document.НачислениеЗарплаты</name>
 		<right>
 			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
 			<value>false</value>
 		</right>
 		<right>
@@ -1085,10 +1033,6 @@
 		<name>Catalog.Организации</name>
 		<right>
 			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
 			<value>false</value>
 		</right>
 		<right>

@@ -8,5 +8,6 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Role.Администратор</content>
+  <content>AccountingRegister.Управленческий</content>
   <parentSubsystem>Subsystem.БухгалтерскийУчет</parentSubsystem>
 </mdclass:Subsystem>

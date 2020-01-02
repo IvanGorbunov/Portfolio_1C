@@ -517,10 +517,6 @@
           <segments>Объект.СписокНоменклатуры.Количество</segments>
         </paths>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>СписокНоменклатурыКоличествоПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>СписокНоменклатурыКоличествоРасширеннаяПодсказка</name>
         <id>37</id>
@@ -561,62 +557,6 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>СписокНоменклатурыЦена</name>
-      <id>38</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.СписокНоменклатуры.Цена</segments>
-        </paths>
-      </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>СписокНоменклатурыЦенаПриИзменении</name>
-      </handlers>
-      <extendedTooltip>
-        <name>СписокНоменклатурыЦенаРасширеннаяПодсказка</name>
-        <id>40</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>СписокНоменклатурыЦенаКонтекстноеМеню</name>
-        <id>39</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <editMode>EnterOnInput</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
       <name>СписокНоменклатурыСумма</name>
       <id>41</id>
       <visible>true</visible>
@@ -629,10 +569,6 @@
           <segments>Объект.СписокНоменклатуры.Сумма</segments>
         </paths>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>СписокНоменклатурыСуммаПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>СписокНоменклатурыСуммаРасширеннаяПодсказка</name>
         <id>43</id>
@@ -938,6 +874,12 @@
     <navigationPanel>
       <cmiFragmentRecord>
         <command>AccumulationRegister.Продажи.StandardCommand.OpenByRecorder</command>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </cmiFragmentRecord>
+      <cmiFragmentRecord>
+        <command>AccountingRegister.Управленческий.StandardCommand.OpenByRecorder</command>
         <userVisible>
           <common>true</common>
         </userVisible>

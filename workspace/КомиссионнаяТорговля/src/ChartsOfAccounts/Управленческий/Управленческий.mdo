@@ -111,6 +111,8 @@
     <key>ru</key>
     <value>План счетов бухгалтерского учета &quot;Управленческий&quot;</value>
   </extendedListPresentation>
+  <extDimensionTypes>ChartOfCharacteristicTypes.ВидыСубконто</extDimensionTypes>
+  <maxExtDimensionCount>2</maxExtDimensionCount>
   <codeMask>@@.@@</codeMask>
   <codeLength>5</codeLength>
   <descriptionLength>50</descriptionLength>
@@ -173,6 +175,11 @@
         <description>Товары</description>
         <code>01.02</code>
         <order>01.02</order>
+        <accountingFlags>ChartOfAccounts.Управленческий.AccountingFlag.Количественный</accountingFlags>
+        <extDimensionTypes>
+          <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Номенклатура</characteristicType>
+          <extDimensionAccountingFlags>ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.Суммовой</extDimensionAccountingFlags>
+        </extDimensionTypes>
       </childItems>
       <childItems id="56803467-7777-47f8-8140-bc783543f752">
         <name>ТоварыВПути</name>
@@ -186,6 +193,14 @@
         <code>01.04</code>
         <accountType>ActivePassive</accountType>
         <order>01.04</order>
+        <extDimensionTypes>
+          <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Контрагенты</characteristicType>
+          <extDimensionAccountingFlags>ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.Суммовой</extDimensionAccountingFlags>
+        </extDimensionTypes>
+        <extDimensionTypes>
+          <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Договоры</characteristicType>
+          <extDimensionAccountingFlags>ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.Суммовой</extDimensionAccountingFlags>
+        </extDimensionTypes>
       </childItems>
       <childItems id="eb85509a-60af-4880-b660-8c70b9158956">
         <name>ОсновноеПроизводство</name>
@@ -231,6 +246,14 @@
         <code>02.02</code>
         <accountType>ActivePassive</accountType>
         <order>02.02</order>
+        <extDimensionTypes>
+          <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Контрагенты</characteristicType>
+          <extDimensionAccountingFlags>ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.Суммовой</extDimensionAccountingFlags>
+        </extDimensionTypes>
+        <extDimensionTypes>
+          <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Договоры</characteristicType>
+          <extDimensionAccountingFlags>ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.Суммовой</extDimensionAccountingFlags>
+        </extDimensionTypes>
       </childItems>
       <childItems id="2200e5b2-ef0d-4f80-bc31-d3df56983787">
         <name>КредитыИЗаймыПолученные</name>
@@ -253,10 +276,42 @@
       <code>03</code>
       <accountType>ActivePassive</accountType>
       <order>03</order>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Номенклатура</characteristicType>
+        <extDimensionAccountingFlags>ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.Суммовой</extDimensionAccountingFlags>
+      </extDimensionTypes>
     </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <autoOrderByCode>true</autoOrderByCode>
   <orderLength>5</orderLength>
+  <accountingFlags uuid="8f5a947a-cfd8-4b1c-bffb-5a09c313609d">
+    <name>Количественный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количественный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </accountingFlags>
+  <extDimensionAccountingFlags uuid="085f430a-b39f-4b51-b487-11d0ad96d61c">
+    <name>Суммовой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Суммовой</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </extDimensionAccountingFlags>
 </mdclass:ChartOfAccounts>
