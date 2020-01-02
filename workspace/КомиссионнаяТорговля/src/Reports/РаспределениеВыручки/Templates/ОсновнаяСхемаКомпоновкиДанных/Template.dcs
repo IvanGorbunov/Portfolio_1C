@@ -746,7 +746,7 @@
 						<dcsat:value xsi:type="v8:LocalStringType">
 							<v8:item>
 								<v8:lang>ru</v8:lang>
-								<v8:content>Нчислить себе</v8:content>
+								<v8:content>Начислить себе</v8:content>
 							</v8:item>
 						</dcsat:value>
 					</dcsat:item>

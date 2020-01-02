@@ -99,25 +99,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="ee3b7f7c-c2a4-11e9-d495-2c4d54e8f12b">
-    <name>СуммаПоДокументу</name>
-    <synonym>
-      <key>ru</key>
-      <value>Сумма по документу</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>12</precision>
-        <scale>2</scale>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <forms uuid="ee3b8b3e-c2a4-11e9-d495-2c4d54e8f12b">
     <name>ФормаДокумента</name>
     <synonym>
