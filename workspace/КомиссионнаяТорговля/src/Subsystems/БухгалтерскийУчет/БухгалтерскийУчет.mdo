@@ -11,6 +11,7 @@
     <picture>CommonPicture.БухгалтерскийУчет</picture>
   </picture>
   <content>Role.Администратор</content>
+  <content>Report.РаспределениеВыручки</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Документы</subsystems>
   <subsystems>Планы</subsystems>
