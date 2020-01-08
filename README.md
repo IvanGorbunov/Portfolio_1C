@@ -10,6 +10,7 @@
 * FeatureFiles - скрипты автоматического тестирования 1С для проекта https://github.com/silverbulleters/add
 * workspace - проект 1C:Enterprise Development Tools 1.16.0.363
 * Documents - автоматически генерируемая документация
+* FeatureFiles - правила обмена данными
 
 ----
 # Техническое задание
